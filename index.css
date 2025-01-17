@@ -1,0 +1,96 @@
+.main{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    background-color: white;
+}
+button:hover{
+    color: #068932; 
+}
+.two{
+    display: flex;
+    padding-left: 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+}
+#fixed{
+    position: relative;
+    top: 0px;
+}
+p{
+    padding-top: 10%;
+    padding-left: 90px;
+    padding-bottom: 0%;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    padding-top: 0px;
+    padding-left: 90px;
+    font-size: 18px;
+    color:hwb(200 60% 38%);
+}
+.login{
+    align:center;
+    background-color: hwb(165 93% 6%);
+    color: black;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-top: 25%;
+}
+#requestdemo{
+    align:center;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-top: 0%;
+}
+#signup{
+    align:center;
+    color: white;
+    background-color: #068932;
+    margin: 20px auto;
+    padding:9px;
+    padding-top: 13px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16%;
+    text-decoration: none;
+}
+#signup2{
+    align:center;
+    color: white;
+    background-color: #068932;
+    margin: 20px auto;
+    padding:10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#hrlogo{
+    width:10%;
+    aspect-ratio: 1/1;
+} 
